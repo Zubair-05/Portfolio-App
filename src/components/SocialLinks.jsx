@@ -41,7 +41,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: '/res.pdf',
+      href: '/201231_Mahammad Zubair.pdf',
       style: 'rounded-br-md',
       download: true
     }
