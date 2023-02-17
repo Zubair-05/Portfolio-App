@@ -3,7 +3,7 @@ import keeper  from '../assets/portfolio/keeper.png'
 import weather from '../assets/portfolio/weather.png'
 import simon from '../assets/portfolio/simon.png'
 import drumkit from '../assets/portfolio/drumkit.png'
-
+import portfolio from '../assets/portfolio/portfolio.png'
 
 const Portfolio = () => {
 
@@ -22,17 +22,22 @@ const Portfolio = () => {
         },
         {
             id:3,
+            src:portfolio,
+            demo:'https://portfolio-zubair05.netlify.app/',
+            code:'https://github.com/Zubair-05/Portfolio-App'
+        },
+        {
+            id:4,
             src:simon,
             demo:'https://simongame-zubair05.netlify.app/',
             code:'https://github.com/Zubair-05/Simon-Game'
         },
         {
-            id:4,
+            id:5,
             src:drumkit,
             demo:'https://drumkit-zubair05.netlify.app/',
             code:'https://github.com/Zubair-05/Drum-Kit'
-        },
-
+        }
     ]
 
 
