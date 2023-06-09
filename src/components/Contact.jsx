@@ -3,7 +3,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white'>
+    <div name='contact' className='w-full   pt-20 '>
 
         <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
             <div className='pb-8'>
@@ -19,19 +19,19 @@ const Contact = () => {
                         type="text" 
                         name="name" 
                         placeholder='Enter your Name'
-                        className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none m-1'    
+                        className='p-2 bg-transparent border-2 rounded-md  focus:outline-none m-1'    
                     />
                     <input 
                         type="text"
                         name='email'
                         placeholder='Enter your email'
-                        className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none m-1'    
+                        className='p-2 bg-transparent border-2 rounded-md  focus:outline-none m-1'    
                         />
                     <textarea 
                         name="message" 
                         placeholder='Enter your message'
                         rows='10'
-                        className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none m-1'
+                        className='p-2 bg-transparent border-2 rounded-md  focus:outline-none m-1'
                     ></textarea>
 
                     <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto items-center rounded-md hover:scale-110 duration-300'>Let's Talk</button>

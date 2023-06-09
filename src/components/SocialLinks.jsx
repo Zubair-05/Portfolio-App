@@ -13,7 +13,7 @@ const SocialLinks = () => {
           LinkedIn <BsLinkedin size={30} />
         </>
       ),
-      href: 'https://www.linkedin.com/in/mulla-mahammad-zubair-677995215/',
+      href: 'https://www.linkedin.com/in/mahammadzubair/',
       style: 'rounded-tr-md'
     },
     {
