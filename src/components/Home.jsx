@@ -18,7 +18,7 @@ const Home = () => {
 
     React.useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ["I'm a Full Stack Developer", "I'm a Open Source Contributor", "I'm a Freelancer"],
+            strings: ["I'm a Full Stack Developer", "I'm a Open Source Contributor"],
             typeSpeed: 75,
             backSpeed: 75,
             
@@ -39,7 +39,7 @@ const Home = () => {
             <div name='home' className="pt-28 md:flex-row space-x-16 space-y-9 flex flex-col mx-10 justify-center items-center">
                 <div className=' w-fit '>
                     <h1 className="text-5xl font-semibold mb-4">Hi, I'm Mahammad Zubair</h1>
-                    <span className='text-2xl font-semibold' ref={el} />
+                    <span className='text-3xl font-semibold' ref={el} />
                     {/* { <div className='w-fit'>
                         <TypeAnimation
                         sequence={[
