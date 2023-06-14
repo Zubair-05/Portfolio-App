@@ -19,6 +19,7 @@
     "react-scroll": "^1.8.9",
     "react-type-animation": "^3.0.1",
     "theme-ui": "^0.15.7",
+    "typed.js": "^2.0.16",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
