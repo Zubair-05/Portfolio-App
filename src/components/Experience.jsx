@@ -10,6 +10,7 @@ import git from "../assets/git.png"
 import github from "../assets/github.png"
 import mongodb from "../assets/mongodb.png"
 import materialui from "../assets/materialui.png"
+import nextjs from "../assets/nextjs.png"
 const Experience = () => {
 
     const techs = [
@@ -72,6 +73,11 @@ const Experience = () => {
             src:materialui,
             title:'Material UI',
             style:'shadow-blue-500'
+        },{
+            id:11,
+            src:nextjs,
+            title:'Next JS',
+            style:'shadow-black'
         }
     ]
 

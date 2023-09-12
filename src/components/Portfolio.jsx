@@ -4,6 +4,8 @@ import weather from '../assets/portfolio/weather.png'
 import simon from '../assets/portfolio/simon.png'
 import drumkit from '../assets/portfolio/drumkit.png'
 import portfolio from '../assets/portfolio/portfolio.png'
+import coursemart from '../assets/portfolio/coursemart.png'
+import progresso from '../assets/portfolio/progresso.png'
 
 const Portfolio = () => {
 
@@ -47,6 +49,23 @@ const Portfolio = () => {
             title: 'Drum Kit',
             demo: 'https://drumkit-zubair05.netlify.app/',
             code: 'https://github.com/Zubair-05/Drum-Kit'
+        },
+        {
+            id: 6,
+            src: coursemart,
+            description: 'Coursemart is a web application where you can find courses on various topics. It is built using MERN stack.',
+            title: 'Coursemart',
+            demo: 'https://course-mart-user-dashboard-zubair05.vercel.app/',
+            code: 'https://github.com/Zubair-05/CourseMart-User-Dashboard'
+
+        },
+        {
+            id: 7,
+            src: progresso,
+            description: 'Progresso is a task management app with drag-and-drop functionality for tracking tasks and projects and it is build using nextjs.',
+            title : 'Progresso',
+            demo:'https://progresso-xi.vercel.app/',
+            code:'https://github.com/Zubair-05/Progresso'
         }
     ]
 

@@ -18,7 +18,7 @@ const Home = () => {
 
     React.useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ["I'm a Full Stack Developer", "I'm a Open Source Contributor"],
+            strings: ["I'm a Full Stack Developer"],
             typeSpeed: 75,
             backSpeed: 75,
             
@@ -61,7 +61,7 @@ const Home = () => {
                     </div> } */}
 
                     <p className='text-gray-500 py-4 max-w-lg'>
-                        Welcome to my portfolio! My name is Mahammad Zubair and I am a frontend web developer with a passion for creating engaging and intuitive user experiences. On this site, you'll find examples of my work and information about my background and experience.
+                        Welcome to my portfolio! My name is Mahammad Zubair and I am a FullStack web developer with a passion for creating engaging and intuitive user experiences. On this site, you'll find examples of my work and information about my background and experience.
                     </p>
                     <div className='flex space-x-2 items-center my-2'>
                         <Link to='portfolio' smooth duration={500} className='group flex items-center rounded-md px-6 py-3  w-fit bg-gradient-to-b from-cyan-500 to-blue-500 cursor-pointer'>                      Portfolio

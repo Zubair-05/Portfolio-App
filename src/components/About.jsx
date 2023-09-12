@@ -10,8 +10,8 @@ const About = () => {
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
                 </div>
                 <p className='text-xl mt-20'>
-                Hi there! My name is Mahammad Zubair and I am a frontend web developer with a passion for creating intuitive and engaging user experiences.
-                I have a strong background in HTML, CSS, and JavaScript, and have experience working with frameworks like React. I'm currentky pursuing my B.Tech 3rd year in National Institute of Technology Warangal.
+                Hi there! My name is Mahammad Zubair and I am a Full stack web developer with a passion for creating intuitive and engaging user experiences.
+                I have a strong background in HTML, CSS, and JavaScript, and have experience working with frameworks like React. I'm currentky pursuing my B.Tech final year in National Institute of Technology Warangal.
                 </p>
                 <br />
                 <p className='text-xl'>
